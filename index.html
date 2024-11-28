@@ -79,7 +79,6 @@
       item.style.cursor = "pointer";
 
       box.appendChild(item);
-      window.location.reload;
       item.onclick = function () {
         item.classList.remove("back");
         if (!item.classList.contains("front") && flippedCards.length < 2 && !matchedCards.includes(item)) {
